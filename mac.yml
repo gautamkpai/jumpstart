@@ -1,0 +1,30 @@
+---
+
+- name: Setup macbook
+  hosts: localhost
+
+  tasks:
+  - name: Install bare necessities
+    homebrew:
+      name: '{{ item }}'
+    with_items:
+      - zsh
+
+  - name: 'bare necessities contd..'
+    homebrew_cask:
+      name:
+        - google-chrome
+        - iterm2
+        - caffeine
+        - dropbox
+        - simplenote
+        - the-unarchiver
+        - transmission
+        - vlc
+
+  # Currently oh-my-zsh installation doesn't work. Needs fixing.
+  # - name: Install oh-my-zsh
+  #   shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  #   args:
+  #     creates: ~/.oh-my-zsh
+
