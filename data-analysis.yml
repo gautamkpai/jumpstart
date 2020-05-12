@@ -13,4 +13,5 @@
       name:
       - 'numpy'
       - 'pandas'
+      - "pandas-datareader"
       - 'jupyterlab'
