@@ -1,0 +1,16 @@
+---
+
+- name: Setup macbook data analysis
+  hosts: localhost
+
+  tasks:
+  - name: Install python
+    homebrew:
+      name: 'python'
+
+  - name: Install python packages
+    pip:
+      name:
+      - 'numpy'
+      - 'pandas'
+      - 'jupyterlab'
