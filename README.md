@@ -1,7 +1,7 @@
 # jumpstart
 Macbook setup - zero to development
 
-### Mac setup
+### Initial Macbook setup
 
 Installs
 
@@ -12,4 +12,13 @@ Installs
 ```
 $ ansible-playbook mac.yml
 ```
+### Data analysis setup
 
+Installs
+- python
+- numpy, pandas, pandas-datareader
+- jupyterlab
+
+```
+$ ansible-playbook data-analysis.yml
+```
