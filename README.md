@@ -16,8 +16,8 @@ $ ansible-playbook mac.yml
 
 Installs
 - python
-- numpy, pandas, pandas-datareader
-- jupyterlab
+- numpy, pandas, pandas-datareader, matplotlib
+- jupyterlab, jupytext
 
 ```
 $ ansible-playbook data-analysis.yml
