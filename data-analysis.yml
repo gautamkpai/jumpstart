@@ -17,3 +17,4 @@
       - 'matplotlib'
       - 'jupyterlab'
       - 'jupytext'
+      - 'py_vollib'
