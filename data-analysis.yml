@@ -4,9 +4,11 @@
   hosts: localhost
 
   tasks:
-  - name: Install python
+  - name: Install python & octave
     homebrew:
-      name: 'python'
+      name:
+        - 'python'
+        - 'octave'
 
   - name: Install python packages
     pip:
