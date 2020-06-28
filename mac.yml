@@ -9,6 +9,7 @@
       name: '{{ item }}'
     with_items:
       - zsh
+      - hugo
 
   - name: 'bare necessities contd..'
     homebrew_cask:
