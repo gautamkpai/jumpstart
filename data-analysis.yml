@@ -28,3 +28,11 @@
   - name: Install RStudio
     homebrew_cask:
       name: rstudio
+
+  # - name: Install r-packages
+  #   shell: echo "install.packages('tseries', repos='https://cloud.r-project.org/')" | R --slave --no-save --no-restore-history
+  #   with_items:
+  #     - rstring
+  #     - quantmod
+  #     - tseries
+
