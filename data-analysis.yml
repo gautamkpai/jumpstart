@@ -20,3 +20,11 @@
       - 'jupyterlab'
       - 'jupytext'
       - 'py_vollib'
+
+  - name: Install R
+    homebrew:
+      name: r
+
+  - name: Install RStudio
+    homebrew_cask:
+      name: rstudio
