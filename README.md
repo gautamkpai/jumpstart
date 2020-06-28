@@ -23,3 +23,24 @@ Installs
 ```
 $ ansible-playbook data-analysis.yml
 ```
+### Manual setup
+
+Currently ansible doesn't have any modules for R packages. We need to manually install a few packages
+
+## Bookdown
+```
+# Install book down package
+install.packages('bookdown')
+
+# For pdf output we need LaTeX distribution. Install TinyTeX (which includes XeLaTeX)
+# https://yihui.org/tinytex/
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
+## Few more R packages
+```
+install.packages('rstring')
+install.packages('quantmod')
+install.packages('tseries')
+```
