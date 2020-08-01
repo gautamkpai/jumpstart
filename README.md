@@ -19,6 +19,7 @@ Installs
 - numpy, pandas, pandas-datareader, matplotlib
 - jupyterlab, jupytext
 - py_vollib
+- statsmodels
 
 ```
 $ ansible-playbook data-analysis.yml

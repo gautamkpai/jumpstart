@@ -20,6 +20,7 @@
       - 'jupyterlab'
       - 'jupytext'
       - 'py_vollib'
+      - 'statsmodels'
 
   - name: Install R
     homebrew:
